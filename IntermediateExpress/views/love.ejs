@@ -1,0 +1,10 @@
+<% include partials/header %>
+<h1>You fell in love with <span style="color:red;"><%=something%></span></h1>
+<h2>This is from the love file!!!</h2>
+
+<% if (something === "Rusty") { %>
+    <p>Good boy!</p>
+<% } else {%>
+    <p>Bad boy, should've said Rusty!!!</p>
+<% } %>
+<% include partials/footer %>
